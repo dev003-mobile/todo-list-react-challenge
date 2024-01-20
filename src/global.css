@@ -1,11 +1,13 @@
 :root {
   --gray-100: #F2F2F2;
   --gray-300: #808080;
-  --grey-400: #333333;
+  --gray-400: #333333;
+  --gray-500: #262626;
   --gray-600: #1A1A1A;
   --gray-700: #0D0D0D;
 
   --blue: #4EA8DE;
+  --blue-dark: #1E6F9F;
 
   --purple: #8284FA;
 
@@ -15,15 +17,19 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: var(--gray-600);
 }
 
-body{
+:focus {
+  outline: 1px solid var(--gray-300);
+}
+
+body, input, textarea, button {
   font-weight: 700;
   font-size: 0.8rem;
   line-height: normal;
   font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
+  background-color: var(--gray-600);
 }
 
 img {
