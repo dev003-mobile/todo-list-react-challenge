@@ -8,6 +8,8 @@
   --blue: #4EA8DE;
 
   --purple: #8284FA;
+
+  --transparent: transparent;
 }
 
 * {
@@ -22,4 +24,8 @@ body{
   line-height: normal;
   font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
+}
+
+img {
+  background-color: var(--transparent);
 }
