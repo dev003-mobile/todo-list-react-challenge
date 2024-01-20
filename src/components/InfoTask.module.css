@@ -1,0 +1,8 @@
+.infoTask {
+  display: flex;
+  width: 47rem;
+  margin: 5.75rem auto 0rem;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--Grey-400, #333);
+}

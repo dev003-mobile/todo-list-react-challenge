@@ -1,0 +1,29 @@
+.task {
+  gap: 0.5rem;
+  display: flex;
+  height: 2rem;
+  width: 8.6875rem;
+  font-size: 0.8rem;
+  line-height: normal;
+  font-weight: bold;
+}
+
+.primaryTitle {
+  color: var(--blue);
+}
+
+.secondaryTitle {
+  color: var(--purple);
+}
+
+.task div {
+  display: flex;
+  height: 1.1875rem;
+  width: 1.5625rem;
+  font-size: 0.75rem;
+  border-radius: 999px;
+  justify-content: center;
+  align-items: center;
+  color: var(--gray-200);
+  background-color: var(--gray-400);
+}
