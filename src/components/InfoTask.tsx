@@ -1,11 +1,16 @@
 import { Task } from "./Task"
 import styles from "./InfoTask.module.css"
 
-export function InfoTask() {
+type Props = {
+  taskCreated: number
+  completedTask: number
+}
+
+export function InfoTask({ taskCreated, completedTask} : Props) {
   return (
     <div className={styles.infoTask}>
-      <Task title="Tarefas criadas" taskCounter={0}/>
-      <Task title="Concluídas" taskCounter={0} type="SECONDARY"/>
+      <Task title="Tarefas criadas" taskCounter={taskCreated}/>
+      <Task title="Concluídas" taskCounter={completedTask} type="SECONDARY"/>
     </div>
   )
 }

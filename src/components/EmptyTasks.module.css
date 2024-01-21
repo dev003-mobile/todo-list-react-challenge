@@ -1,9 +1,11 @@
 .emptyTasks {
   display: flex;
   flex-direction: column;
-  margin-top: 4rem;
-  justify-content: center;
+  width: 47rem;
+  margin: 1.5rem auto;
+  padding-top: 4rem;
   align-items: center;
+  border-top: 1px solid var(--gray-400);
 }
 
 .text {
